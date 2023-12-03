@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>John Mark Romero | Full-Stack Web Developer</title>
+
+	<!-- icons -->
+	<script src="https://kit.fontawesome.com/dfa2db43a8.js" crossorigin="anonymous"></script>
+
+	<!-- bootstrap v4.6 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+
+
+<body>
+
+<!-- top navbar -->
+<nav class="navbar navbar-expand-lg d-lg-none d-md-none navbar-dark navbar-sticky-top" id="mob-drp">
+  <a class="navbar-brand portfolio" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#landing">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tools">Tools</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+<!-- sidebar -->
+	<div class="d-none d-md-flex justify-content-center align-items-center col-md-2" id="side">
+		<div class="row flex-column justify-content-center align-items-center py-5">
+			<div class="col-md-6 mb-2">
+				<img src="./images/me.jpg" class="img-fluid rounded-circle">
+
+			</div>
+			<div class="col text-center animation-area">
+
+				<h3 class="mb-1 sb-name">John Mark Romero</h3>
+				<h6 class="sb-web">Web Developer</h6>
+			</div>
+			<div class="col-md-8 text-center">
+				<a href="#" class="text-light text-decoration-none">Profile</a>
+			</div>
+			<div class="col-md-8 text-center">
+				<a href="#projects" class="text-light text-decoration-none">Projects</a>
+			</div>
+			<div class="col-md-8 text-center">
+				<a href="#tools" class="text-light text-decoration-none">Tools</a>
+			</div>
+			<div class="col-md-8 text-center">
+				<a href="#contact" class="text-light text-decoration-none">Contact</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+<!-- main interface/landing page -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center align-items-center" id="landing">
+				<div class="mt-5 pt-5 text-white">
+					<h1 class="text-center mt-5 pt-5 display-1 mb-0 interface-name">John Mark Romero</h1>
+					<h4 class="text-center display-6 interface-web">Web Developer</h4>
+					<div class="row mt-3 justify-content-center">
+					  <div class="col-6 d-flex justify-content-around">
+					      <i class="fa-solid fa-code mx-3 mx-md-0"></i>
+					      <i class="fa-solid fa-user-secret mx-3 mx-md-0"></i>
+					      <i class="fa-solid fa-laptop-code mx-3 mx-md-0"></i>
+					      <i class="fa-solid fa-headset mx-3 mx-md-0"></i>
+					  </div>
+					</div>
+				</div>
+			</div>
+
+
+
+<!-- Projects -->
+			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center align-items-center py-4" id="projects">
+				<h1 class="text-center mt-5 mb-2 titles-effect">Projects</h1>
+				<div class="row mt-2 pt-3 px-4 justify-content-center">
+					<!-- changed img outside -->
+					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal1">
+						<img src="https://images.pexels.com/photos/1837726/pexels-photo-1837726.jpeg?auto=compress&cs=tinysrgb&w=800" class="img-fluid proj">
+						<!-- Modal -->
+						<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Localhost Subject Listings</h5>
+						      </div>
+						      <div class="modal-body">
+						      	<!-- changed img inside -->
+						        <img src="./images/1.png" class="img-fluid">
+						        <p class="text-justify mt-3">
+						        	Created a simple localhost subject listing platform with MySQL and PHP, utilizing Bootstrap, HTML, and CSS.
+						        </p>
+						      </div>
+						      <div class="modal-footer d-flex justify-content-center">
+						        <!-- <button type="button" class="btn btn-primary">Go To Page</button> -->
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal2">
+						<img src="https://images.pexels.com/photos/460961/pexels-photo-460961.jpeg?auto=compress&cs=tinysrgb&w=800" class="img-fluid proj">
+						<!-- Modal -->
+						<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">SysMania Application</h5>
+						      </div>
+						      <div class="modal-body">
+						      	<img src="./images/2.png" class="img-fluid">
+						        <p class="text-justify mt-3">
+						        	Developed an Android application with HTML5, CSS, Bootstrap, and JavaScript. Implemented local storage for secure user data storage
+						        </p>
+						      </div>
+						      <div class="modal-footer d-flex justify-content-center">
+						        <!-- <button type="button" class="btn btn-primary">Go To Page</button> -->
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal3">
+						<img src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800" class="img-fluid proj">
+						<!-- Modal -->
+						<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Music Blog</h5>
+						      </div>
+						      <div class="modal-body">
+						      	<img src="./images/3.png" class="img-fluid">
+						        <p class="text-justify mt-3">
+						        	Simple dynamic music blog and articles regarding types and genres of music, using Front End programming. 
+						        </p>
+						      </div>
+						      <div class="modal-footer d-flex justify-content-center">
+						        <!-- <button type="button" class="btn btn-primary">Go To Page</button> -->
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-5 py-2 px-4 justify-content-center">
+					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal4">
+						<img src="https://images.pexels.com/photos/7336102/pexels-photo-7336102.jpeg?auto=compress&cs=tinysrgb&w=800" class="img-fluid proj">
+						<!-- modal -->
+						<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">E-commerce website</h5>
+						      </div>
+						      <div class="modal-body">
+						      	<img src="./images/4.png" class="img-fluid">
+						        <p class="text-justify mt-3">
+						        	Created a simple E-commerce website using Front-End languages and localhost PHP, MySQL as database.
+						        </p>
+						      </div>
+						      <div class="modal-footer d-flex justify-content-center">
+						        <!-- <button type="button" class="btn btn-primary">Go To Gallery</button> -->
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal5">
+						<img src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=800" class="img-fluid proj">
+						<!-- modal -->
+						<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Zuitt Website</h5>
+						      </div>
+						      <div class="modal-body">
+						      	<img src="./images/5.png" class="img-fluid">
+						        <p class="text-justify mt-3">
+						     			Static website using Front End Programming.
+						        </p>
+						      </div>
+						      <div class="modal-footer d-flex justify-content-center">
+						        <!-- <button type="button" class="btn btn-primary">Go To Gallery</button> -->
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal6">
+						<img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=800" class="img-fluid proj">
+						<!-- modal -->
+						<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">React Website</h5>
+						      </div>
+						      <div class="modal-body">
+						      	<img src="./images/6.png" class="img-fluid">
+						        <p class="text-justify mt-3">
+						        	Developed a React-based web application with API integration and responsive design utilizing modern JavaScript  techniques and DOM manipulation
+						        </p>
+						      </div>
+						      <div class="modal-footer d-flex justify-content-center">
+						        <!-- <button type="button" class="btn btn-primary">Go To Gallery</button> -->
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+<!-- Tools -->
+			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center align-items-center" id="tools">
+				<h1 class="titles-effect">Tools and Languages</h1>
+				<div class="row d-none d-md-flex justify-content-center pb-5">
+
+					<div class="col-md-3 col-lg-2 mx-3 my-1 toolbox tools-cntr">
+					    <h3 class="my-md-3 text-center subtitles-des">Static</h3>
+					    <div class="row justify-content-center">
+					        <div class="col-3 col-md-6" >
+					            <img src="./images/logo-html5.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-css3.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-bootstrap.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-javascript.png" class="img-fluid">
+					        </div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-lg-2 mx-3 my-1 toolbox tools-cntr">
+					    <h3 class="my-md-3 text-center subtitles-des">Dynamic</h3>
+					    <div class="row justify-content-center">
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-mongodb.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-expressjs.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-react.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-nodejs.png" class="img-fluid">
+					        </div>
+					    </div>
+					</div>
+					<div class="col-md-3 col-lg-2 mx-3 my-1 toolbox tools-cntr">
+					    <h3 class="my-md-3 text-center subtitles-des">Others</h3>
+					    <div class="row justify-content-center">
+
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-mysql.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-git.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-postman.png" class="img-fluid">
+					        </div>
+					        <div class="col-3 col-md-6">
+					            <img src="./images/logo-rest.png" class="img-fluid">
+					        </div>
+					    </div>
+					</div>
+				</div>
+
+
+
+				<!-- small screen tools -->
+				<div class="row d-md-none flex-column align-items-center">
+					<div class="col-10 p-2 toolbox rounded">
+						<div class="row">
+							<div class="col-4">
+							    <img src="./images/logo-html5.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-css3.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-bootstrap.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-javascript.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-mongodb.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-expressjs.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-react.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-nodejs.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-mysql.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-git.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-postman.png" class="img-fluid">
+							</div>
+							<div class="col-4">
+							    <img src="./images/logo-rest.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+<!-- Contact -->
+			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center" id="contact">
+				<h2 class="text-center mt-5 mb-4 titles-effect">Contact</h2>
+				<div class="row mt-3 justify-content-center">
+					  <div class="col-6 d-flex justify-content-around">
+					    <a href="https://www.facebook.com/johnmark.romero.773">
+					      <i class="fab fa-facebook mx-3 mx-md-0"></i>
+					    </a>
+
+					    <a href="https://www.gitlab.com/your-gitlab-profile">
+					      <i class="fab fa-gitlab mx-3 mx-md-0"></i>
+					    </a>
+
+					    <a href="https://www.linkedin.com/in/john-mark-romero-084622297/">
+					      <i class="fab fa-linkedin mx-3 mx-md-0"></i>
+					    </a>
+
+					    <a href="https://www.instagram.com/lazarus_ains/">
+					      <i class="fab fa-instagram mx-3 mx-md-0"></i>
+					    </a>
+					  </div>
+					</div>
+					<div class="row px-md-5">
+					<div class="col-md-6 p-3 my-3  text-white">
+						<h4 class="text-center text-white mb-3">Visit Me</h4>
+						<iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.929048219533!2d120.8618462!3d14.313975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33962a927218606d%3A0x19c1a06fc4a09475!2sCiudad%20Verde%20Homes!5e0!3m2!1sen!2sph!4v1638550330516!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+					</div>
+
+
+
+					<!-- form -->
+					<div class="col-md-6 p-3 my-3 text-white text-center">
+						<h4 class="text-center mb-3">Message Me</h4>
+						<form>
+						    <div class="form-group my-3">
+						        <label class="mb-2">Full Name</label>
+						        <input type="text" class="form-control">
+						    </div>
+						    <div class="form-group mb-3">
+						        <label class="mb-2">Email Address</label>
+						        <input type="email" class="form-control">
+						    </div>
+						    <div class="form-group mb-3">
+						        <label class="mb-2">Message</label>
+						        <textarea class="form-control" rows="5"></textarea>
+						    </div>
+						    <div class="d-grid mt-4">
+							    <button type="submit" class="btn btn-block btn-outline-light" data-toggle="modal" data-target="#modalDiv">Send</button>
+						    </div>
+						</form>
+					</div>
+
+
+
+<!-- alert -->
+					<div class="modal fade text-dark" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">Not available!</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        Work in progress.
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+
+
+
+
+
+				</div>
+			</div>
+			<footer class="offset-md-2 pt-5 mt-5 col-md-10 d-flex flex-column justify-content-center text-white">
+				<p class="text-center mb-0">John Mark Romero || Web Developer</p>
+				<p class="text-center mt-1">&copy; Job Application. 2023</p>
+			</footer>
+		</div>
+	</div>
+
+<ul class="box-area">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
